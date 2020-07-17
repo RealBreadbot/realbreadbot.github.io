@@ -1,0 +1,114 @@
+body {
+    display: flexbox;
+    width: 100vw;
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+    font-size: 12px;
+    overflow-x: hidden;
+    align-items: center;
+    position: relative;
+    padding-bottom: 79px;
+    min-height: 100vh;
+    color: black;
+    background-color: #0055FF;
+}
+
+/* Main Body Card Thing */
+
+.main-body-card {
+    width: 95%;
+    height: 70vh;
+    border-radius: 40px;
+    margin-top: 55px;
+    margin-right: 20px;
+    transition: .5s;
+    -webkit-box-shadow: 5px 5px 0px 0px #289FED, 10px 10px 0px 0px #5FB8FF, 15px 15px 0px 0px #A1D8FF, 20px 20px 0px 0px #CAE6FF, 25px 25px 0px 0px #E1EEFF, 5px 5px 15px 5px rgba(0,0,0,0); 
+    box-shadow: 5px 5px 0px 0px #289FED, 10px 10px 0px 0px #5FB8FF, 15px 15px 0px 0px #A1D8FF, 20px 20px 0px 0px #CAE6FF, 25px 25px 0px 0px #E1EEFF, 5px 5px 15px 5px rgba(0,0,0,0);
+    display: inline-block;
+    background-color: white;
+}
+
+.main-body-card h1 {
+    font-family: "Arial Black";
+    font-size: 27px;
+    letter-spacing: 0.2px;
+    word-spacing: -0.2px;
+    color: #000000;
+    font-weight: 400;
+    text-decoration: none;
+    font-style: normal;
+    font-variant: small-caps;
+    text-transform: none;
+}
+
+.main-body-card h3 {
+    font-family: "Comic Sans MS";
+    font-size: 25px;
+    letter-spacing: 0.8px;
+    word-spacing: -0.8px;
+    color: #000000;
+    font-weight: 900;
+    text-decoration: none;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: none;
+}
+
+.main-body-card h2 {
+    font-family: "Arial Black";
+    font-size: 27px;
+    letter-spacing: 0.2px;
+    word-spacing: -0.2px;
+    color: #000000;
+    font-weight: 400;
+    text-decoration: none;
+    font-style: normal;
+    font-variant: small-caps;
+    text-transform: none;
+}
+
+/* Nav bar */
+
+nav {
+    height: 44px;
+    background: white;
+    width: 30%;
+    font-family: "Comic Sans MS";
+    border-radius: 40px;
+    -webkit-box-shadow: 5px 5px 0px 0px #289FED, 10px 10px 0px 0px #5FB8FF, 15px 15px 0px 0px #A1D8FF, 20px 20px 0px 0px #CAE6FF, 25px 25px 0px 0px #E1EEFF, 5px 5px 15px 5px rgba(0,0,0,0); 
+    box-shadow: 5px 5px 0px 0px #289FED, 10px 10px 0px 0px #5FB8FF, 15px 15px 0px 0px #A1D8FF, 20px 20px 0px 0px #CAE6FF, 25px 25px 0px 0px #E1EEFF, 5px 5px 15px 5px rgba(0,0,0,0);
+}
+
+.menu {
+    position: relative;
+    float: top;
+    margin: 0 auto;
+    width: 85%;
+    overflow: hidden;
+    border-radius: 40px;
+    font-size: 18px;
+}
+
+.menu ul {  
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu ul li {
+    list-style: none;
+}
+
+.menu ul li,
+.menu ul li a {
+    color: black;
+    line-height: 44px;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.menu ul li .fas.fa-blender {
+    font-size: 20px;
+}
